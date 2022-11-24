@@ -10,7 +10,9 @@ const AppWrap = (Component, idName, classNames) =>
           <Component />
 
           <div className="copyright">
-            <p className="p-text"> MIKY.IO | @{new Date().getFullYear()}</p>
+            <p className="p-text">
+              &copy; MIKY-IO | Portfolio @{new Date().getFullYear()}
+            </p>
             <p className="p-text">All rights reserved</p>
           </div>
         </div>

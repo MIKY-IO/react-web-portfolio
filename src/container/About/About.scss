@@ -4,6 +4,14 @@
   flex-direction: column;
 }
 
+.app__wrapper {
+  padding: 0;
+
+  .copyright {
+    display: none;
+  }
+}
+
 .app__profiles {
   display: flex;
   justify-content: center;

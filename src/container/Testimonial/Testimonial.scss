@@ -4,6 +4,14 @@
   flex-direction: column;
 }
 
+.app__wrapper {
+  padding: 0;
+
+  .copyright {
+    display: none;
+  }
+}
+
 .app__testimonial-item {
   width: 60%;
   min-height: 320px;
@@ -53,7 +61,7 @@
   align-items: flex-start;
 
   p {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     line-height: 2rem;
     color: var(--black-color);
     font-family: var(--font-base);

@@ -20,11 +20,9 @@ const About = () => {
   return (
     <>
       <h2 className="head-text">
-        <span>
-          I Know that <span>Good Development</span> <br /> means
-        </span>
-        <span>Good Business</span>
+        "No Hugs & kisses <span>Only</span> Bugs & Fixes"
       </h2>
+
       <div className="app__profiles">
         {abouts.map((about, index) => (
           <motion.div
