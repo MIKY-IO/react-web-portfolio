@@ -3,6 +3,10 @@
   justify-content: flex-start;
   width: 100%;
   flex-direction: column;
+
+  .copyright {
+    display: none;
+  }
 }
 .paragraph-text {
   display: block;

@@ -153,6 +153,10 @@
   }
 }
 
+.app__wrapper :not(.app__footer) + .copyright {
+  display: none;
+}
+
 .app__navigation {
   display: flex;
   justify-content: center;

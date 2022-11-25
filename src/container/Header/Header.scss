@@ -56,6 +56,7 @@
 .app__header-circles {
   & .circle-cmp:nth-child(3) {
     animation: float-vertical-2 3s ease-in-out infinite;
+    animation-delay: 1000ms;
   }
   & .circle-cmp:nth-child(1) {
     animation: float-horizontal 3s ease-in-out infinite;
